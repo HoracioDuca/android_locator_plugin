@@ -1,6 +1,7 @@
+import 'utils/example_strings.dart';
+import 'widgets/plugin_button.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-
 import 'package:flutter/services.dart';
 import 'package:android_locator_plugin/android_locator_plugin.dart';
 
@@ -14,29 +15,24 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+  String _platformVersion = ExampleStrings.platformVersion;
 
   @override
   void initState() {
     super.initState();
-    initPlatformState();
+    //initPlatformState();
   }
 
-  // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
     String platformVersion;
-    // Platform messages may fail, so we use a try/catch PlatformException.
-    // We also handle the message potentially returning null.
+
     try {
-      platformVersion =
-          await AndroidLocatorPlugin.platformVersion ?? 'Unknown platform version';
+      platformVersion = await AndroidLocatorPlugin.platformVersion ??
+          ExampleStrings.unknownPlatformVersion;
     } on PlatformException {
-      platformVersion = 'Failed to get platform version.';
+      platformVersion = ExampleStrings.platformFail;
     }
 
-    // If the widget was removed from the tree while the asynchronous platform
-    // message was in flight, we want to discard the reply rather than calling
-    // setState to update our non-existent appearance.
     if (!mounted) return;
 
     setState(() {
@@ -47,12 +43,64 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text(
+            ExampleStrings.appBarTitle,
+          ),
         ),
         body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Column(
+                children: [
+                  PluginButton(
+                    text: ExampleStrings.checkPermission,
+                    onPressed: () {
+                      AndroidLocatorPlugin.checkPermission;
+                    },
+                  ),
+                  StreamBuilder(
+                    stream: AndroidLocatorPlugin.accessStream,
+                    builder: (
+                      BuildContext context,
+                      AsyncSnapshot<dynamic> snapshot,
+                    ) {
+                      return snapshot.hasData
+                          ? Text(
+                              snapshot.data.toString(),
+                            )
+                          : Text(
+                              ExampleStrings.permissionInfo,
+                            );
+                    },
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  PluginButton(
+                    text: ExampleStrings.requestPermission,
+                    onPressed: () {
+                      AndroidLocatorPlugin.requestPermission;
+                    },
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  PluginButton(
+                    text: ExampleStrings.initializePlugin,
+                    onPressed: () {
+                      AndroidLocatorPlugin.initializePlugin;
+                    },
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
