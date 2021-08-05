@@ -31,16 +31,11 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.only(
-                  top: ExampleConstants.edgeInsetsTop,
-                ),
-                child: PluginButton(
-                  text: ExampleConstants.checkPermission,
-                  onPressed: () {
-                    AndroidLocatorPlugin.checkPermission;
-                  },
-                ),
+              PluginButton(
+                text: ExampleConstants.checkPermission,
+                onPressed: () {
+                  AndroidLocatorPlugin.checkPermission;
+                },
               ),
               StreamBuilder(
                 stream: AndroidLocatorPlugin.accessStream,
@@ -57,27 +52,11 @@ class _MyAppState extends State<MyApp> {
                         );
                 },
               ),
-              Padding(
-                padding: const EdgeInsets.only(
-                  top: ExampleConstants.edgeInsetsTop,
-                ),
-                child: PluginButton(
-                  text: ExampleConstants.requestPermission,
-                  onPressed: () {
-                    AndroidLocatorPlugin.requestPermission;
-                  },
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(
-                  top: ExampleConstants.edgeInsetsTop,
-                ),
-                child: PluginButton(
-                  text: ExampleConstants.initializePlugin,
-                  onPressed: () {
-                    AndroidLocatorPlugin.initializePlugin;
-                  },
-                ),
+              PluginButton(
+                text: ExampleConstants.requestPermission,
+                onPressed: () {
+                  AndroidLocatorPlugin.requestPermission;
+                },
               ),
             ],
           ),

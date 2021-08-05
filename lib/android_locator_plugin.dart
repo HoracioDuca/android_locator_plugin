@@ -6,11 +6,6 @@ class AndroidLocatorPlugin {
   static const MethodChannel _channel =
       const MethodChannel(PluginStrings.methodChannel);
 
-  static Future<void> get initializePlugin async {
-    await _channel.invokeMethod(PluginStrings.initialize);
-    return;
-  }
-
   static Future<bool> get checkPermission async {
     final bool granted =
         await _channel.invokeMethod(PluginStrings.checkPermission);
