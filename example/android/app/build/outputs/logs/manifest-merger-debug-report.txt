@@ -5,25 +5,25 @@ INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
-MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\8f8dd1e8b1db154c278b6352d5a29751\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\b49640d5e692d9474a6cd3856c880247\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\02b958d2034eff52aedd7aeab92ed0df\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5b8a8d6b5da79ebf75a58eca6f2ade82\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f9ad111c07f24e48d2a4c107c57f2b44\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\af9526dd8d892698335195c2bf92e9dc\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5e8671d59b4a3684952d6b757f968287\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0564f97a7a4042a4a77db0f12381e987\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0994d1484214056cb64512bf70bc7941\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\645511f5b5b747832e5979bbadb1a042\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\16cb4db9bd8c7849f40fcf065de8c8e8\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\c39786f836a5757e68c6def9a9b275fa\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\ae5db0e1482e7dcc129a9bbcea1c71c2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\a23b3faf6d7c9af4e8d5570028e17cc9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\8a25e0f1fabe0bb889d115c5bc1fc845\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\898a4adef58b48f075de2e537055dc3b\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\4516d87e900541ee466f3eda0022c544\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -43,22 +43,22 @@ INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin
 		ADDED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:1:11-69
 application
 ADDED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:3:4-40:19
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\8f8dd1e8b1db154c278b6352d5a29751\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\8f8dd1e8b1db154c278b6352d5a29751\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\b49640d5e692d9474a6cd3856c880247\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\b49640d5e692d9474a6cd3856c880247\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\02b958d2034eff52aedd7aeab92ed0df\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\02b958d2034eff52aedd7aeab92ed0df\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5b8a8d6b5da79ebf75a58eca6f2ade82\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5b8a8d6b5da79ebf75a58eca6f2ade82\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f9ad111c07f24e48d2a4c107c57f2b44\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f9ad111c07f24e48d2a4c107c57f2b44\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\898a4adef58b48f075de2e537055dc3b\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\898a4adef58b48f075de2e537055dc3b\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml:4:9-55
 	android:icon
@@ -109,44 +109,44 @@ uses-sdk
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\main\AndroidManifest.xml
-MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\8f8dd1e8b1db154c278b6352d5a29751\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\8f8dd1e8b1db154c278b6352d5a29751\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\b49640d5e692d9474a6cd3856c880247\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\b49640d5e692d9474a6cd3856c880247\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\544eab86e7823cb4f6f6bbcd34094c52\core-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\02b958d2034eff52aedd7aeab92ed0df\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\02b958d2034eff52aedd7aeab92ed0df\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5b8a8d6b5da79ebf75a58eca6f2ade82\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5b8a8d6b5da79ebf75a58eca6f2ade82\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f9ad111c07f24e48d2a4c107c57f2b44\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f9ad111c07f24e48d2a4c107c57f2b44\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\af9526dd8d892698335195c2bf92e9dc\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\af9526dd8d892698335195c2bf92e9dc\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5e8671d59b4a3684952d6b757f968287\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\5e8671d59b4a3684952d6b757f968287\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0564f97a7a4042a4a77db0f12381e987\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0564f97a7a4042a4a77db0f12381e987\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0994d1484214056cb64512bf70bc7941\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\0994d1484214056cb64512bf70bc7941\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\645511f5b5b747832e5979bbadb1a042\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\645511f5b5b747832e5979bbadb1a042\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\21c243fb84c4f5d20b81e2f917766715\transformed\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\16cb4db9bd8c7849f40fcf065de8c8e8\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\16cb4db9bd8c7849f40fcf065de8c8e8\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\c39786f836a5757e68c6def9a9b275fa\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\c39786f836a5757e68c6def9a9b275fa\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\ae5db0e1482e7dcc129a9bbcea1c71c2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\ae5db0e1482e7dcc129a9bbcea1c71c2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\a23b3faf6d7c9af4e8d5570028e17cc9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\a23b3faf6d7c9af4e8d5570028e17cc9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\8a25e0f1fabe0bb889d115c5bc1fc845\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\8a25e0f1fabe0bb889d115c5bc1fc845\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\898a4adef58b48f075de2e537055dc3b\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\898a4adef58b48f075de2e537055dc3b\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\4516d87e900541ee466f3eda0022c544\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\4516d87e900541ee466f3eda0022c544\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -160,24 +160,24 @@ ADDED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\ex
 	android:name
 		ADDED from C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+		ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+		ADDED from [:android_locator_plugin] C:\Users\horacio.duca\AndroidStudioProjects\android_locator_plugin\example\build\android_locator_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-76
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\a23fd013e31a2c5a009c6b0dca02afba\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\51fd7715942fe0919fe54279093fabac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-2\files-2.1\861ae1c6d8e5444f0459ae8b39987179\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\horacio.duca\.gradle\caches\transforms-3\f68a3bb70b7c384d83b8fe19c874209e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58

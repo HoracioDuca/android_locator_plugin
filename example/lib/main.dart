@@ -1,8 +1,6 @@
-import 'utils/example_strings.dart';
+import 'utils/example_constants.dart';
 import 'widgets/plugin_button.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
-import 'package:flutter/services.dart';
 import 'package:android_locator_plugin/android_locator_plugin.dart';
 
 void main() {
@@ -15,29 +13,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = ExampleStrings.platformVersion;
-
   @override
   void initState() {
     super.initState();
-    //initPlatformState();
-  }
-
-  Future<void> initPlatformState() async {
-    String platformVersion;
-
-    try {
-      platformVersion = await AndroidLocatorPlugin.platformVersion ??
-          ExampleStrings.unknownPlatformVersion;
-    } on PlatformException {
-      platformVersion = ExampleStrings.platformFail;
-    }
-
-    if (!mounted) return;
-
-    setState(() {
-      _platformVersion = platformVersion;
-    });
   }
 
   @override
@@ -47,57 +25,59 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
-            ExampleStrings.appBarTitle,
+            ExampleConstants.appBarTitle,
           ),
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Column(
-                children: [
-                  PluginButton(
-                    text: ExampleStrings.checkPermission,
-                    onPressed: () {
-                      AndroidLocatorPlugin.checkPermission;
-                    },
-                  ),
-                  StreamBuilder(
-                    stream: AndroidLocatorPlugin.accessStream,
-                    builder: (
-                      BuildContext context,
-                      AsyncSnapshot<dynamic> snapshot,
-                    ) {
-                      return snapshot.hasData
-                          ? Text(
-                              snapshot.data.toString(),
-                            )
-                          : Text(
-                              ExampleStrings.permissionInfo,
-                            );
-                    },
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.only(
+                  top: ExampleConstants.edgeInsetsTop,
+                ),
+                child: PluginButton(
+                  text: ExampleConstants.checkPermission,
+                  onPressed: () {
+                    AndroidLocatorPlugin.checkPermission;
+                  },
+                ),
               ),
-              Column(
-                children: [
-                  PluginButton(
-                    text: ExampleStrings.requestPermission,
-                    onPressed: () {
-                      AndroidLocatorPlugin.requestPermission;
-                    },
-                  ),
-                ],
+              StreamBuilder(
+                stream: AndroidLocatorPlugin.accessStream,
+                builder: (
+                  BuildContext context,
+                  AsyncSnapshot<dynamic> snapshot,
+                ) {
+                  return snapshot.hasData
+                      ? Text(
+                          snapshot.data.toString(),
+                        )
+                      : Text(
+                          ExampleConstants.permissionInfo,
+                        );
+                },
               ),
-              Column(
-                children: [
-                  PluginButton(
-                    text: ExampleStrings.initializePlugin,
-                    onPressed: () {
-                      AndroidLocatorPlugin.initializePlugin;
-                    },
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.only(
+                  top: ExampleConstants.edgeInsetsTop,
+                ),
+                child: PluginButton(
+                  text: ExampleConstants.requestPermission,
+                  onPressed: () {
+                    AndroidLocatorPlugin.requestPermission;
+                  },
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  top: ExampleConstants.edgeInsetsTop,
+                ),
+                child: PluginButton(
+                  text: ExampleConstants.initializePlugin,
+                  onPressed: () {
+                    AndroidLocatorPlugin.initializePlugin;
+                  },
+                ),
               ),
             ],
           ),
