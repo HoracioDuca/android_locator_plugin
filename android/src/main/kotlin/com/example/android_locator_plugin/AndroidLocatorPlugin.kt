@@ -9,6 +9,13 @@ import android.util.Log
 import androidx.annotation.NonNull
 import androidx.core.app.ActivityCompat.requestPermissions
 import androidx.core.content.ContextCompat
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationCallback
+import com.google.android.gms.location.LocationRequest
+import com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY
+import com.google.android.gms.location.LocationRequest.create
+import com.google.android.gms.location.LocationResult
+import com.google.android.gms.location.LocationServices
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
@@ -27,6 +34,9 @@ class AndroidLocatorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
     private lateinit var channel: MethodChannel
     private lateinit var activity: Activity
     private lateinit var context: Context
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+    private lateinit var locationRequest: LocationRequest
+    private lateinit var locationCallback: LocationCallback
 
     private lateinit var accessEventChannel: EventChannel
     private lateinit var accessEventSource: EventChannel.EventSink
@@ -40,18 +50,35 @@ class AndroidLocatorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
             }
         }
 
+    private lateinit var locationEventChannel: EventChannel
+    private lateinit var locationEventSource: EventChannel.EventSink
+    private var locationStreamHandler: EventChannel.StreamHandler =
+        object : EventChannel.StreamHandler {
+            override fun onListen(arguments: Any?, events: EventChannel.EventSink) {
+                locationEventSource = events
+            }
+
+            override fun onCancel(arguments: Any?) {
+            }
+        }
+
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
         context = flutterPluginBinding.applicationContext
         channel = MethodChannel(flutterPluginBinding.binaryMessenger, ANDROID_LOCATOR_PLUGIN)
         channel.setMethodCallHandler(this)
         accessEventChannel = EventChannel(flutterPluginBinding.binaryMessenger, ACCESS_STREAM)
         accessEventChannel.setStreamHandler(accessStreamHandler)
+        locationEventChannel = EventChannel(flutterPluginBinding.binaryMessenger, EVENT_LOCATION)
+        locationEventChannel.setStreamHandler(locationStreamHandler)
     }
 
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
         when (call.method) {
             CHECK_PERMISSION -> checkPermission(result)
             REQUEST_PERMISSION -> requestPermission(result)
+            INITIALIZE -> initializePlugin(result)
+            START_LOCALIZING -> startLocalizing(result)
+            STOP_LOCALIZING -> stopLocalizing(result)
             else -> result.notImplemented()
         }
     }
@@ -92,6 +119,45 @@ class AndroidLocatorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
         return granted
     }
 
+    private fun initializePlugin(result: Result) {
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(activity)
+        val permission = permissionGranted()
+        accessEventSource.success(if (permission) PLUGIN_INITIALIZED else PLUGIN_NEED_PERMISSION)
+        if (permission) {
+            locationRequest = create().apply {
+                interval = LOCATION_REQUEST_INTERVAL
+                priority = PRIORITY_HIGH_ACCURACY
+                locationCallback = object : LocationCallback() {
+                    override fun onLocationResult(locationResult: LocationResult?) {
+                        locationEventSource.success(
+                            locationResult?.convertToString()
+                        )
+                    }
+                }
+            }
+        } else {
+            locationEventSource.success(ACCESS_DENIED)
+        }
+        result.success(permission)
+    }
+
+    private fun startLocalizing(result: Result) {
+        fusedLocationClient.requestLocationUpdates(
+            locationRequest,
+            locationCallback,
+            null
+        )
+        result.success(true)
+    }
+
+    private fun stopLocalizing(result: Result) {
+        context.run {
+            fusedLocationClient.removeLocationUpdates(locationCallback)
+        }
+        locationEventSource.success(FINISH_LOCALIZING)
+        result.success(true)
+    }
+
     override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
         channel.setMethodCallHandler(null)
     }
@@ -124,8 +190,17 @@ class AndroidLocatorPlugin : FlutterPlugin, MethodCallHandler, ActivityAware,
         const val ACCESS_DENIED = "Your access is not granted"
         const val CHECK_PERMISSION = "checkPermission"
         const val ACCESS_STREAM = "access_event_channel"
-        const val EVENT_LOCATION = "location_event_channel"
+        const val EVENT_LOCATION = "access_location_channel"
         const val ANDROID_LOCATOR_PLUGIN = "android_locator_plugin"
         const val REQUEST_PERMISSION = "requestPermission"
+        const val INITIALIZE = "initialize"
+        const val PLUGIN_INITIALIZED = "The plugin has been initialized"
+        const val PLUGIN_NEED_PERMISSION = "You need access first"
+        const val LOCATION_REQUEST_INTERVAL = 1500L
+        const val LONGITUDE = "Longitude: "
+        const val LATITUDE = " -  Latitude: "
+        const val START_LOCALIZING = "startLocalizing"
+        const val STOP_LOCALIZING = "stopLocalizing"
+        const val FINISH_LOCALIZING = "Find user's location has been stopped"
     }
 }

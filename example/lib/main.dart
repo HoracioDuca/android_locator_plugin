@@ -58,6 +58,39 @@ class _MyAppState extends State<MyApp> {
                   AndroidLocatorPlugin.requestPermission;
                 },
               ),
+              PluginButton(
+                text: ExampleConstants.initializePlugin,
+                onPressed: () {
+                  AndroidLocatorPlugin.initializePlugin;
+                },
+              ),
+              PluginButton(
+                text: ExampleConstants.startLocalizing,
+                onPressed: () {
+                  AndroidLocatorPlugin.startLocalizing;
+                },
+              ),
+              StreamBuilder(
+                stream: AndroidLocatorPlugin.locationStream,
+                builder: (
+                  BuildContext context,
+                  AsyncSnapshot<dynamic> snapshot,
+                ) {
+                  return snapshot.hasData
+                      ? Text(
+                          snapshot.data,
+                        )
+                      : Text(
+                          ExampleConstants.underButtonText,
+                        );
+                },
+              ),
+              PluginButton(
+                text: ExampleConstants.stopLocalizing,
+                onPressed: () {
+                  AndroidLocatorPlugin.stopLocalizing;
+                },
+              ),
             ],
           ),
         ),

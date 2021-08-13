@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:android_locator_plugin/android_locator_plugin.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('android_locator_plugin');
